@@ -8,6 +8,8 @@ public abstract class Food extends AbstractMenuItem {
 	
 	private final double weight;
 	
+	public final MenuItemCategory category= MenuItemCategory.FOOD;
+	
 	protected Food(String name, double price, double weight) {
 		super(name, price);
 		this.weight = weight;

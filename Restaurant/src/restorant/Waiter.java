@@ -13,9 +13,21 @@ public class Waiter {
 	
 	HashMap<AbstractClient, ArrayList<AbstractMenuItem>> orders;
 	
+	public void reciveTip(double sum){
+		if(sum < 0)
+			throw new IllegalArgumentException("Negative values are not allowed: " + sum);
+		this.tips += sum;
+	}
+	
 	public double bringBill(AbstractClient cli){
 		//TODO - get tottal value of client's oprders.
 		return 0;		
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
 	}
 	
 }

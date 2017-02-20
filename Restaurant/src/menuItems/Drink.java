@@ -6,10 +6,11 @@ public abstract class Drink extends AbstractMenuItem {
 		ALCOHOL,SOFT_DRINK;
 	}
 	
+	public final MenuItemCategory category= MenuItemCategory.DRINK;
+
 	
 	protected Drink(String name, double price) {
 		super(name, price);
-		// TODO Auto-generated constructor stub
 	}
 
 }

@@ -7,7 +7,7 @@ public class Dessert extends Food{
 	
 	protected Dessert(String name, double price, double weight) {
 		super(name, price, weight);
-		// TODO Auto-generated constructor stub; HOW TO VALIDATE WEIGHT?	
+		// TODO HOW TO VALIDATE WEIGHT?	
 	}
 
 

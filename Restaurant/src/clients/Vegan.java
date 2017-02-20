@@ -6,9 +6,8 @@ import menuItems.AbstractMenuItem;
 
 public class Vegan extends AbstractClient {
 
-	protected Vegan(String name) {
+	public Vegan(String name) {
 		super(name, 30);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override

@@ -7,7 +7,7 @@ public class MainCourse extends Food implements IForThug{
 
 	protected MainCourse(String name, double weight) {
 		super(name, 9, weight);
-		// TODO Auto-generated constructor stub; HOW TO VALIDATE WEIGHT?	
+		// TODO HOW TO VALIDATE WEIGHT?	
 	}
 
 	@Override
