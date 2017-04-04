@@ -41,7 +41,7 @@ public class LtterCounter {
 		sortedLetters.addAll(letters.entrySet());
 
 		sortedLetters.sort(new EntryComparatorByValue());
-//
+
 		System.out.println(
 				"    0%------------------------------------------------------------------------------------------------100%");
 		for (Entry<Character, Integer> entry : sortedLetters) {
